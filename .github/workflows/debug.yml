@@ -21,7 +21,7 @@ jobs:
       # 
       - name: install
         run: |
-          sudo cloudflared service install eyJhIjoiOGQyMDg4NjE0Nzg1N2EwY2RjYzhkYjc3OGU4YjZlZjciLCJ0IjoiY2UwNTQxM2YtMjUwOS00MzI4LWI3MmUtYmIyOTNhODJlZmFlIiwicyI6IlpXUTRaakZpTXpZdFpUazVOaTAwWmpVMExUaGpPRGd0T0RJeFl6WTVZamszT1dSayJ9
+          cloudflared.exe service install eyJhIjoiOGQyMDg4NjE0Nzg1N2EwY2RjYzhkYjc3OGU4YjZlZjciLCJ0IjoiYjU4MjQ2MmItZTY5My00NzJkLThiMjktNmFkOWY1MDAyNzJhIiwicyI6Ik1ERXlOamcxTURJdE5UaGhZeTAwTUdJd0xUZzRPRE10TlRNek1UazFOVFprTkRJdyJ9
 
       # 
       - name: refresh
